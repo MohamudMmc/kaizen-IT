@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(208, 132, 100);
+}
+nav img{
+    float: left;
+    border-radius: 30%;
+}
+nav ul{
+    list-style-type: none;
+    padding: 20px;
+    margin-left:  500px; ;
+}
+nav ul li{
+    display: inline;
+    padding-left: 10px;
+}
+nav ul li a{
+    color: blue;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: brown;
+    border-bottom: 1px solid tomato;
+    padding-bottom: 15px;
+}
+#header{
+    background-image: url(/image/orange.jpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px
+}
+#header h1{
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+#header p{
+     color: red;
+     text-align: center;
+     padding: 20px;
+}
+#header a{
+    margin-left: 700px;
+    color: rgb(16, 16, 16);
+    text-decoration: none;
+    border-radius: 1px solid #3bed0a;
+    padding: 10px;
+    border-radius: 10px;
+}
+#header a:hover{
+    color: rgb(255, 243, 13);
+    background: red;
+}
+#section1{
+    background-color: #f5c412;
+    padding: 20px;
+    color: rgb(14, 138, 247);
+}
+#section2{
+    background-color: rgb(255, 0, 106);
+    padding: 30px;
+}
+#section3{
+    display: flex;
+}
+#section3 #div1{
+    background-color: #000000;
+    padding: 20px;
+    color: aliceblue;
+}
+#section3 #div2{
+    background-color: #752aff;
+    padding: 20px;
+    color: aliceblue;
+}
+#section3 #div3{
+    background-color: #f16d2f;
+    padding: 20px;
+    color: aliceblue;
+}
+footer{
+    text-align: center;
+    background-color: rgb(255, 0, 230);
+}
